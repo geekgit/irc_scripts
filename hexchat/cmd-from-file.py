@@ -78,7 +78,7 @@ def hexchatwork():
 def cmdff_callback(word, wrod_eol, userdata):
     thread = threading.Thread(target=hexchatwork)
     thread.start()
-    thread.join()
+    #thread.join()
     return hexchat.EAT_ALL
 
 
